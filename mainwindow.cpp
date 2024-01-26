@@ -58,6 +58,10 @@ MainWindow::MainWindow(QWidget *parent)
     QLabel *lab2=new QLabel("cpx7777.top",this);
     status->addPermanentWidget(lab2);
 
+    QPixmap pix;
+    pix.load(":/picture/zhang.jpg");
+    act1->setIcon(QIcon(pix));
+
 
 
 }
